@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3376F91928D4AB0F00D46560 /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376F91828D4AB0F00D46560 /* DeviceSize.swift */; };
+		3376F91B28D4AF4600D46560 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376F91A28D4AF4600D46560 /* SignUpViewController.swift */; };
+		3376F91D28D4B8E500D46560 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376F91C28D4B8E500D46560 /* LogInVC.swift */; };
 		338FC28328D4A737001AB08A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FC28228D4A737001AB08A /* AppDelegate.swift */; };
 		338FC28528D4A737001AB08A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FC28428D4A737001AB08A /* SceneDelegate.swift */; };
 		338FC28728D4A737001AB08A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FC28628D4A737001AB08A /* ViewController.swift */; };
-		338FC28A28D4A737001AB08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338FC28828D4A737001AB08A /* Main.storyboard */; };
 		338FC28C28D4A739001AB08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338FC28B28D4A739001AB08A /* Assets.xcassets */; };
 		338FC28F28D4A739001AB08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338FC28D28D4A739001AB08A /* LaunchScreen.storyboard */; };
+		338FC29728D4A953001AB08A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 338FC29628D4A953001AB08A /* GoogleService-Info.plist */; };
+		DAA52F5BDEF1DBD6CDA8733C /* Pods_T25FirebaseAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85BC46C5B216FB1CEBB2605 /* Pods_T25FirebaseAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DF6EFFFCDED694E297EDCBF /* Pods-T25FirebaseAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T25FirebaseAuthentication.debug.xcconfig"; path = "Target Support Files/Pods-T25FirebaseAuthentication/Pods-T25FirebaseAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		3376F91828D4AB0F00D46560 /* DeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
+		3376F91A28D4AF4600D46560 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3376F91C28D4B8E500D46560 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		338FC27F28D4A737001AB08A /* T25FirebaseAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T25FirebaseAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FC28228D4A737001AB08A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338FC28428D4A737001AB08A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		338FC28628D4A737001AB08A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		338FC28928D4A737001AB08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		338FC28B28D4A739001AB08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338FC28E28D4A739001AB08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338FC29028D4A739001AB08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338FC29628D4A953001AB08A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52275BD8E664A4EA844FC3A5 /* Pods-T25FirebaseAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T25FirebaseAuthentication.release.xcconfig"; path = "Target Support Files/Pods-T25FirebaseAuthentication/Pods-T25FirebaseAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+		A85BC46C5B216FB1CEBB2605 /* Pods_T25FirebaseAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T25FirebaseAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA52F5BDEF1DBD6CDA8733C /* Pods_T25FirebaseAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27EBFEE9CF5391EA36EBDCAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A85BC46C5B216FB1CEBB2605 /* Pods_T25FirebaseAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		338FC27628D4A737001AB08A = {
 			isa = PBXGroup;
 			children = (
 				338FC28128D4A737001AB08A /* T25FirebaseAuthentication */,
 				338FC28028D4A737001AB08A /* Products */,
+				D06A58F2B1D5AD722731B425 /* Pods */,
+				27EBFEE9CF5391EA36EBDCAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +80,24 @@
 				338FC28228D4A737001AB08A /* AppDelegate.swift */,
 				338FC28428D4A737001AB08A /* SceneDelegate.swift */,
 				338FC28628D4A737001AB08A /* ViewController.swift */,
-				338FC28828D4A737001AB08A /* Main.storyboard */,
+				3376F91C28D4B8E500D46560 /* LogInVC.swift */,
+				3376F91A28D4AF4600D46560 /* SignUpViewController.swift */,
+				3376F91828D4AB0F00D46560 /* DeviceSize.swift */,
 				338FC28B28D4A739001AB08A /* Assets.xcassets */,
 				338FC28D28D4A739001AB08A /* LaunchScreen.storyboard */,
 				338FC29028D4A739001AB08A /* Info.plist */,
+				338FC29628D4A953001AB08A /* GoogleService-Info.plist */,
 			);
 			path = T25FirebaseAuthentication;
+			sourceTree = "<group>";
+		};
+		D06A58F2B1D5AD722731B425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DF6EFFFCDED694E297EDCBF /* Pods-T25FirebaseAuthentication.debug.xcconfig */,
+				52275BD8E664A4EA844FC3A5 /* Pods-T25FirebaseAuthentication.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338FC29328D4A739001AB08A /* Build configuration list for PBXNativeTarget "T25FirebaseAuthentication" */;
 			buildPhases = (
+				48A93E3E2C8E283C4B6DB765 /* [CP] Check Pods Manifest.lock */,
 				338FC27B28D4A737001AB08A /* Sources */,
 				338FC27C28D4A737001AB08A /* Frameworks */,
 				338FC27D28D4A737001AB08A /* Resources */,
+				18F71ACA2ABDE4555BBA05CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +162,53 @@
 			files = (
 				338FC28F28D4A739001AB08A /* LaunchScreen.storyboard in Resources */,
 				338FC28C28D4A739001AB08A /* Assets.xcassets in Resources */,
-				338FC28A28D4A737001AB08A /* Main.storyboard in Resources */,
+				338FC29728D4A953001AB08A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18F71ACA2ABDE4555BBA05CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T25FirebaseAuthentication/Pods-T25FirebaseAuthentication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T25FirebaseAuthentication/Pods-T25FirebaseAuthentication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-T25FirebaseAuthentication/Pods-T25FirebaseAuthentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A93E3E2C8E283C4B6DB765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T25FirebaseAuthentication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		338FC27B28D4A737001AB08A /* Sources */ = {
@@ -140,21 +217,16 @@
 			files = (
 				338FC28728D4A737001AB08A /* ViewController.swift in Sources */,
 				338FC28328D4A737001AB08A /* AppDelegate.swift in Sources */,
+				3376F91D28D4B8E500D46560 /* LogInVC.swift in Sources */,
+				3376F91928D4AB0F00D46560 /* DeviceSize.swift in Sources */,
 				338FC28528D4A737001AB08A /* SceneDelegate.swift in Sources */,
+				3376F91B28D4AF4600D46560 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		338FC28828D4A737001AB08A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				338FC28928D4A737001AB08A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		338FC28D28D4A739001AB08A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +354,7 @@
 		};
 		338FC29428D4A739001AB08A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF6EFFFCDED694E297EDCBF /* Pods-T25FirebaseAuthentication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +365,6 @@
 				INFOPLIST_FILE = T25FirebaseAuthentication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +382,7 @@
 		};
 		338FC29528D4A739001AB08A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52275BD8E664A4EA844FC3A5 /* Pods-T25FirebaseAuthentication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +393,6 @@
 				INFOPLIST_FILE = T25FirebaseAuthentication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

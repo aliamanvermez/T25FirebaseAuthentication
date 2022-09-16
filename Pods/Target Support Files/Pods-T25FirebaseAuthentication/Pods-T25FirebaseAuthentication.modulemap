@@ -1,0 +1,6 @@
+framework module Pods_T25FirebaseAuthentication {
+  umbrella header "Pods-T25FirebaseAuthentication-umbrella.h"
+
+  export *
+  module * { export * }
+}
